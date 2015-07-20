@@ -27,6 +27,7 @@ set(CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE ON)
 cmake_minimum_required(VERSION 2.6.0)
 
 set(CMAKE_COLOR_MAKEFILE ON)
+set(CMAKE_DEBUG_POSTFIX "d")
 
 # Allow advanced users to generate Makefiles printing detailed commands
 mark_as_advanced(CLEAR CMAKE_VERBOSE_MAKEFILE )
